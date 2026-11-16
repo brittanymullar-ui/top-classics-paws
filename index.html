@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbf5ef">
+  <meta name="description" content="Meet the puppies in the care of Top Classics Paws. Find the puppy who feels like home.">
+  <title>Top Classics Paws | Find the puppy who feels like home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--cream:#fbf5ef;--paper:#fffdfa;--blush:#f4e4df;--rose:#b9655c;--brown:#49372f;--muted:#806f66;--indigo:#555779;--gold:#c49b59;--line:#eadfd7;--shadow:0 14px 36px rgba(83,55,43,.08);--radius:22px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--cream);color:var(--brown);font-family:"DM Sans",sans-serif;line-height:1.65}a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+    .topbar{position:sticky;top:0;z-index:10;background:rgba(251,245,239,.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(234,223,215,.8)}.nav{height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand-mini{display:flex;align-items:center;gap:10px;font-family:"Playfair Display",serif;font-size:18px;font-weight:600}.mini-mark{width:35px;height:35px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--rose);font-size:18px}.navlinks{display:flex;gap:24px;font-size:13px;color:var(--muted)}.navlinks a:hover{color:var(--rose)}.nav-cta{padding:10px 16px;border-radius:99px;background:var(--indigo);color:white;font-size:13px;font-weight:600}
+    .hero{padding:72px 0 78px;text-align:center;background:radial-gradient(ellipse at 50% 0%,#f5e7e1 0,transparent 62%)}.logo{width:102px;height:102px;border:1.5px solid var(--gold);border-radius:50%;margin:0 auto 18px;display:flex;flex-direction:column;align-items:center;justify-content:center;background:rgba(255,253,250,.72);box-shadow:0 8px 24px rgba(83,55,43,.06);color:var(--rose)}.logo .paw{font-size:33px;line-height:1}.logo small{font-family:"Playfair Display",serif;font-size:9px;letter-spacing:1.2px;color:var(--brown);margin-top:5px}.eyebrow{text-transform:uppercase;letter-spacing:2.4px;color:var(--rose);font-size:11px;font-weight:700}.hero h1{font:600 clamp(38px,6vw,66px)/1.12 "Playfair Display",serif;max-width:760px;margin:14px auto 18px;letter-spacing:-1.3px}.hero p{max-width:610px;margin:0 auto;color:var(--muted);font-size:16px}.hero-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 21px;border-radius:999px;font-size:14px;font-weight:700;border:1px solid transparent;transition:transform .2s,box-shadow .2s}.btn:hover{transform:translateY(-2px);box-shadow:var(--shadow)}.primary{background:var(--rose);color:white}.secondary{background:var(--indigo);color:white}.outline{border-color:#d9c7bc;background:rgba(255,253,250,.7);color:var(--brown)}
+    section{padding:76px 0}.section-head{text-align:center;max-width:650px;margin:0 auto 34px}.section-head h2,.copy h2{font:600 clamp(30px,4vw,43px)/1.2 "Playfair Display",serif;margin:8px 0 12px}.section-head p{color:var(--muted);margin:0}.breed-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.breed-card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:0 6px 20px rgba(83,55,43,.04);transition:.2s}.breed-card:hover,.breed-card.active{transform:translateY(-3px);border-color:#d7aaa0;box-shadow:var(--shadow)}.breed-art{height:100px;border-radius:16px;background:linear-gradient(135deg,#f6e8e1,#f3eee6);display:grid;place-items:center;font-size:43px;margin-bottom:15px}.breed-card:nth-child(3n+2) .breed-art{background:linear-gradient(135deg,#ececf4,#f5e9e5)}.breed-card h3{font:600 20px "Playfair Display",serif;margin:0 0 2px}.count{font-size:12px;color:var(--muted)}.view-btn{margin-top:13px;border:0;background:none;color:var(--rose);padding:0;font-weight:700;font-size:13px;cursor:pointer}.view-btn span{font-size:17px;margin-left:4px}
+    .puppy-section{padding-top:5px}.filter-note{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 18px;color:var(--muted);font-size:13px}.clear-filter{border:0;background:none;color:var(--rose);font-weight:700;cursor:pointer}.puppy-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.puppy-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;overflow:hidden}.puppy-placeholder{height:190px;background:linear-gradient(145deg,#f3e4dd,#eee9e2);display:grid;place-items:center;color:#a98578;font-size:46px}.puppy-info{padding:18px}.puppy-info h3{font:600 21px "Playfair Display",serif;margin:0}.puppy-info p{font-size:13px;color:var(--muted);margin:5px 0 0}.puppy-info .puppy-price{margin-top:8px;color:var(--brown);font-size:14px}.puppy-price strong{color:var(--rose)}.empty-state{grid-column:1/-1;text-align:center;padding:34px;background:var(--paper);border:1px dashed var(--line);border-radius:18px;color:var(--muted)}
+    .why{background:#f6ece6}.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.why-card{background:rgba(255,253,250,.8);padding:23px;border-radius:19px;border:1px solid rgba(234,223,215,.8)}.why-icon{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:#f4e2dc;color:var(--rose);font-size:17px}.why-card h3{font:600 19px "Playfair Display",serif;margin:13px 0 5px}.why-card p{font-size:13px;color:var(--muted);margin:0}
+    .steps{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.step{padding:21px 17px;border:1px solid var(--line);border-radius:18px;background:var(--paper)}.step-num{font:600 28px "Playfair Display",serif;color:var(--gold)}.step h3{font:600 18px "Playfair Display",serif;margin:7px 0 5px}.step p{font-size:12px;color:var(--muted);margin:0}.hold-note{margin:25px auto 0;max-width:780px;background:#f2e8dc;border-left:3px solid var(--gold);padding:17px 20px;border-radius:0 14px 14px 0;font-size:14px;color:#685345}.hold-note strong{color:var(--brown)}
+    .faq{background:#f6ece6}.faq-list{max-width:790px;margin:auto}.faq-item{border-bottom:1px solid #e5d7ce}.faq-q{width:100%;border:0;background:none;text-align:left;padding:18px 2px;display:flex;justify-content:space-between;gap:20px;color:var(--brown);font-weight:700;cursor:pointer}.faq-q span:last-child{color:var(--rose);font-size:20px}.faq-a{display:none;padding:0 30px 18px 2px;color:var(--muted);font-size:14px}.faq-item.open .faq-a{display:block}.faq-item.open .faq-q span:last-child{transform:rotate(45deg)}
+    .contact{padding:84px 0;background:linear-gradient(135deg,#554f70,#6c6179);color:white;text-align:center}.contact .eyebrow{color:#e8c997}.contact h2{font:600 clamp(32px,5vw,48px)/1.15 "Playfair Display",serif;max-width:700px;margin:12px auto}.contact p{max-width:570px;margin:0 auto;color:#eee8ed}.contact-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:28px}.contact .primary{background:#bd7068}.contact .outline{background:transparent;border-color:rgba(255,255,255,.5);color:white}.contact .secondary{background:#fff;color:#514c69}.contact small{display:block;margin-top:20px;color:#e4dce5;font-size:12px}
+    footer{padding:25px 0;color:var(--muted);font-size:12px}.footer-inner{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    @media(max-width:850px){.breed-grid{grid-template-columns:repeat(2,1fr)}.why-grid{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(3,1fr)}.puppy-grid{grid-template-columns:repeat(2,1fr)}.navlinks{gap:13px}}
+    @media(max-width:560px){.wrap{width:min(100% - 30px,1120px)}.nav{height:62px}.navlinks{display:none}.brand-mini{font-size:16px}.nav-cta{padding:9px 13px}.hero{padding:55px 0 60px}.hero h1{font-size:43px}.hero p{font-size:14px}.hero-actions{display:grid;grid-template-columns:1fr;max-width:300px;margin:25px auto 0}.btn{width:100%}section{padding:58px 0}.breed-grid{gap:11px}.breed-card{padding:13px;border-radius:17px}.breed-art{height:83px;font-size:35px}.breed-card h3{font-size:17px}.why-grid{grid-template-columns:1fr}.steps{grid-template-columns:repeat(2,1fr)}.step:last-child{grid-column:1/-1}.puppy-grid{grid-template-columns:1fr}.puppy-placeholder{height:165px}.filter-note{align-items:flex-start}.contact{padding:65px 0}.footer-inner{flex-direction:column;text-align:center}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="topbar"><div class="wrap nav">
+    <a class="brand-mini" href="#home"><span class="mini-mark">🐾</span> Top Classics Paws</a>
+    <nav class="navlinks" aria-label="Main navigation"><a href="#breeds">Breeds</a><a href="#why">Our care</a><a href="#how">How it works</a><a href="#faq">FAQ</a></nav>
+    <a class="nav-cta" href="#contact">Get in touch</a>
+  </div></header>
+  <main id="home">
+    <section class="hero"><div class="wrap">
+      <div class="logo" aria-label="Top Classics Paws logo"><span class="paw">🐾</span><small>TOP CLASSICS PAWS</small></div>
+      <div class="eyebrow">A little love, a lifelong friend</div>
+      <h1>Find the puppy who feels like home.</h1>
+      <p>Look through the puppies in Top Classics Paws’ care, then write to us. Every question is welcome.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#breeds">Browse Puppies <span>↓</span></a>
+        <a class="btn secondary" href="https://wa.me/19382764969?text=Hello%20Top%20Classics%20Paws%2C%20I%20have%20been%20looking%20at%20the%20puppies%20and%20I%20would%20like%20help%20choosing%20one.">Message on WhatsApp</a>
+      </div>
+    </div></section>
+
+    <section id="breeds"><div class="wrap">
+      <div class="section-head"><div class="eyebrow">Meet the little ones</div><h2>Browse by Breed</h2><p>Choose a breed to see the puppies listed in that group. Availability can change, so please message us to confirm.</p></div>
+      <div class="breed-grid" id="breedGrid"></div>
+    </div></section>
+
+    <section class="puppy-section" id="puppies"><div class="wrap">
+      <div class="section-head"><div class="eyebrow">A new best friend may be here</div><h2 id="puppyHeading">Puppies in our care</h2><p>Each puppy listing is shown below. Photos, and exact prices can be added as you provide them.</p></div>
+      <div class="filter-note"><span id="filterStatus" aria-live="polite">Showing all breed groups</span><button class="clear-filter" id="clearFilter" type="button">Show all breeds</button></div>
+      <div class="puppy-grid" id="puppyGrid"></div>
+    </div></section>
+
+    <section class="why" id="why"><div class="wrap">
+      <div class="section-head"><div class="eyebrow">A little about our approach</div><h2>Why Choose Us</h2><p>Good conversations matter. Here is what you can expect when you reach out.</p></div>
+      <div class="why-grid">
+        <article class="why-card"><div class="why-icon">⌂</div><h3>Raised at home</h3><p>They grow up in a house with ordinary rooms, ordinary noise, and someone close by.</p></article>
+        <article class="why-card"><div class="why-icon">♡</div><h3>Looked after each day</h3><p>Feeding, handling, and watching them is the work of the day.</p></article>
+        <article class="why-card"><div class="why-icon">☏</div><h3>You speak with Top Classics Paws</h3><p>There is no office between you. The person who answers is the person who knows the puppy.</p></article>
+        <article class="why-card"><div class="why-icon">✧</div><h3>More to see if you ask</h3><p>Ask us for additional photos, videos, or details about a puppy you are considering.</p></article>
+        <article class="why-card"><div class="why-icon">＋</div><h3>Health notes when you ask</h3><p>They are not posted publicly. Tell us which puppy and we will share what we have.</p></article>
+        <article class="why-card"><div class="why-icon">⌁</div><h3>Still here after they go home</h3><p>A question does not expire when a puppy leaves. You can still get in touch.</p></article>
+      </div>
+    </div></section>
+
+    <section id="how"><div class="wrap">
+      <div class="section-head"><div class="eyebrow">One step at a time</div><h2>How It Works</h2><p>Take your time, ask what you need, and make a decision that feels right.</p></div>
+      <div class="steps">
+        <article class="step"><div class="step-num">01</div><h3>Look</h3><p>See the puppies who are here now.</p></article>
+        <article class="step"><div class="step-num">02</div><h3>Choose</h3><p>Stay with the one you keep coming back to.</p></article>
+        <article class="step"><div class="step-num">03</div><h3>Write</h3><p>WhatsApp is the fastest way. Telegram and email also work.</p></article>
+        <article class="step"><div class="step-num">04</div><h3>Hold</h3><p>If the full price has to wait, a $50 fee holds the puppy. This website does not take the payment.</p></article>
+        <article class="step"><div class="step-num">05</div><h3>Receiving</h3><p>Talk through pickup, or delivery where it can be arranged.</p></article>
+      </div>
+      <div class="hold-note"><strong>About the $50 hold fee:</strong> If the full price has to wait, this fee keeps the puppy for you. Questions cost nothing. The $50 is only for the hold. This page does not take the money.</div>
+    </div></section>
+
+    <section class="faq" id="faq"><div class="wrap">
+      <div class="section-head"><div class="eyebrow">Good to know</div><h2>Questions, Answered</h2><p>If something is not covered here, please write. We are happy to talk it through.</p></div>
+      <div class="faq-list">
+        <div class="faq-item"><button class="faq-q" aria-expanded="false"><span>How do I ask about a puppy?</span><span>＋</span></button><div class="faq-a">Send a message on WhatsApp or Telegram and mention the puppy’s name or breed. We will reply and help with your questions.</div></div>
+        <div class="faq-item"><button class="faq-q" aria-expanded="false"><span>Can I see more photos or videos?</span><span>＋</span></button><div class="faq-a">Yes. Ask us about the puppy you have in mind and we can share any additional photos or videos we have available.</div></div>
+        <div class="faq-item"><button class="faq-q" aria-expanded="false"><span>How does the $50 reservation work?</span><span>＋</span></button><div class="faq-a">If you need time before paying the full price, a $50 hold fee is used to reserve the puppy. Confirm the puppy, hold terms, and payment method directly with us before sending any money. This website does not process payments.</div></div>
+        <div class="faq-item"><button class="faq-q" aria-expanded="false"><span>Do you offer pickup?</span><span>＋</span></button><div class="faq-a">Pickup can be arranged. Message us so we can discuss the details and a suitable time.</div></div>
+        <div class="faq-item"><button class="faq-q" aria-expanded="false"><span>Do you offer delivery?</span><span>＋</span></button><div class="faq-a">Delivery depends on your location and what can be safely and responsibly arranged. Ask us about your area and we will explain what is possible.</div></div>
+        <div class="faq-item"><button class="faq-q" aria-expanded="false"><span>How is payment handled?</span><span>＋</span></button><div class="faq-a">Payment is discussed directly with us. No payment is collected on this website. Before paying, make sure you have confirmed the puppy’s details, the total amount, and the agreed arrangements.</div></div>
+        <div class="faq-item"><button class="faq-q" aria-expanded="false"><span>What happens after I contact you?</span><span>＋</span></button><div class="faq-a">Tell us which puppy caught your eye. We will answer your questions, share the information we have, and talk through possible next steps.</div></div>
+        <div class="faq-item"><button class="faq-q" aria-expanded="false"><span>How old are the puppies?</span><span>＋</span></button><div class="faq-a">Age varies by puppy. Please ask about the specific puppy you are interested in so we can give you their current age and readiness information.</div></div>
+        <div class="faq-item"><button class="faq-q" aria-expanded="false"><span>Which breeds do you have?</span><span>＋</span></button><div class="faq-a">The breed groups shown here are Yorkies, French Bulldogs, Maltese, Dachshunds, Pomeranians, Poodles, Chihuahuas, and Shih Tzus. Message us to confirm current availability.</div></div>
+      </div>
+    </div></section>
+
+    <section class="contact" id="contact"><div class="wrap">
+      <div class="eyebrow">We would love to hear from you</div>
+      <h2>Tell Top Classics Paws which puppy you mean.</h2>
+      <p>Use the puppy’s name. We will answer, and we will tell you what comes next. Pickup can be arranged. Delivery depends on where you are.</p>
+      <div class="contact-actions">
+        <a class="btn primary" href="https://wa.me/19382764969?text=Hello%20Top%20Classics%20Paws%2C%20I%20have%20been%20looking%20at%20the%20puppies%20and%20I%20would%20like%20help%20choosing%20one.">Message on WhatsApp</a>
+        <a class="btn secondary" href="https://t.me/zoetatt">Message on Telegram</a>
+        <a class="btn outline" href="sms:+19382764969">Text us</a>
+      </div>
+      <small>Questions are welcome. Please confirm all puppy details and arrangements directly before making a payment.</small>
+    </div></section>
+  </main>
+  <footer><div class="wrap footer-inner"><span>© <span id="year"></span> Top Classics Paws</span><span>Find the puppy who feels like home.</span></div></footer>
+  <script>
+    const breeds = [
+      {name:"Yorkies",count:10,emoji:"🐶"},{name:"French Bulldogs",count:7,emoji:"🐾"},
+      {name:"Maltese",count:10,emoji:"🐩"},{name:"Dachshunds",count:7,emoji:"🐕"},
+      {name:"Pomeranians",count:5,emoji:"🐶"},{name:"Poodles",count:8,emoji:"🐩"},
+      {name:"Chihuahuas",count:5,emoji:"🐾"},{name:"Shih Tzus",count:6,emoji:"🐕"}
+    ];
+    const breedGrid=document.getElementById("breedGrid"), puppyGrid=document.getElementById("puppyGrid");
+    let activeBreed="All";
+    function renderBreeds(){
+      breedGrid.innerHTML=breeds.map(b=>`<article class="breed-card ${activeBreed===b.name?"active":""}">
+        <div class="breed-art" aria-hidden="true">${b.emoji}</div><h3>${b.name}</h3>
+        <div class="count">${b.count} listed as available</div>
+        <button class="view-btn" type="button" data-breed="${b.name}">View All <span>→</span></button>
+      </article>`).join("");
+      breedGrid.querySelectorAll("button").forEach(btn=>btn.addEventListener("click",()=>selectBreed(btn.dataset.breed)));
+    }
+    function renderPuppies(){
+      const shown=activeBreed==="All"?breeds:breeds.filter(b=>b.name===activeBreed);
+      document.getElementById("puppyHeading").textContent=activeBreed==="All"?"Puppies in our care":`${activeBreed} puppies`;
+      document.getElementById("filterStatus").textContent=activeBreed==="All"?"Showing all breed groups":`Showing ${activeBreed}`;
+      puppyGrid.innerHTML=shown.map(b=>Array.from({length:b.count},(_,i)=>`<article class="puppy-card">
+        <div class="puppy-placeholder" aria-label="Puppy photo placeholder">🐾</div>
+        <div class="puppy-info"><h3>${b.name} puppy ${i+1}</h3><p class="puppy-price">Price: <strong>Contact us</strong></p><p>Ask us for current details, photos, and availability.</p><a class="view-btn" href="https://wa.me/19382764969?text=Hello%20Top%20Classics%20Paws%2C%20please%20tell%20me%20the%20price%20and%20details%20for%20${encodeURIComponent(b.name)}%20puppy%20${i+1}.">Ask about this puppy →</a></div>
+      </article>`).join("")).join("");
+    }
+    function selectBreed(name){activeBreed=name;renderBreeds();renderPuppies();document.getElementById("puppies").scrollIntoView({behavior:"smooth"});}
+    document.getElementById("clearFilter").addEventListener("click",()=>{activeBreed="All";renderBreeds();renderPuppies();});
+    document.querySelectorAll(".faq-q").forEach(btn=>btn.addEventListener("click",()=>{const item=btn.closest(".faq-item");const open=item.classList.toggle("open");btn.setAttribute("aria-expanded",String(open));}));
+    document.getElementById("year").textContent=new Date().getFullYear();
+    renderBreeds();renderPuppies();
+  </script>
+</body>
+</html>

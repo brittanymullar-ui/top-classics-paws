@@ -52,7 +52,7 @@
 
 
         <section class="puppy-section" id="puppies"><div class="wrap">
-      <div class="section-head"><div class="eyebrow">A new best friend may be here</div><h2 id="puppyHeading">Puppies in our care</h2><p>Each puppy listing is shown below. Photos, and exact prices can be added as you provide them.</p></div>
+      <div class="section-head"><div class="eyebrow">A new best friend may be here</div><h2 id="puppyHeading">Puppies in our care</h2><p>Each puppy listing is shown below. Puppies are listed at $300 each. Message us to confirm current availability and details.</p></div>
       <div class="filter-note"><span id="filterStatus" aria-live="polite">Showing all breed groups</span><button class="clear-filter" id="clearFilter" type="button">Show all breeds</button></div>
       <div class="puppy-grid" id="puppyGrid"></div>
     </div></section>
@@ -142,7 +142,7 @@
       document.getElementById("filterStatus").textContent=activeBreed==="All"?"Showing all breed groups":`Showing ${activeBreed}`;
       puppyGrid.innerHTML=shown.map(b=>Array.from({length:b.count},(_,i)=>`<article class="puppy-card">
         <div class="puppy-placeholder">${puppyPhotos[b.name]?.[i] || (i===0 && typeof puppyPhotos[b.name]==="string")?`<img src="${Array.isArray(puppyPhotos[b.name])?puppyPhotos[b.name][i]:puppyPhotos[b.name]}" alt="${b.name} puppy ${i+1}">`:"🐾"}</div>
-        <div class="puppy-info"><h3>${b.name} puppy ${i+1}</h3><p class="puppy-price">Price: <strong>Contact us</strong></p><p>Ask us for current details, photos, and availability.</p><a class="view-btn" href="https://wa.me/19382764969?text=Hello%20Top%20Classics%20Paws%2C%20please%20tell%20me%20the%20price%20and%20details%20for%20${encodeURIComponent(b.name)}%20puppy%20${i+1}.">Ask about this puppy →</a></div>
+        <div class="puppy-info"><h3>${b.name} puppy ${i+1}</h3><p class="puppy-price">Price: <strong>$300</strong></p><p>Ask us for current details, photos, and availability.</p><a class="view-btn" href="https://wa.me/19382764969?text=Hello%20Top%20Classics%20Paws%2C%20please%20tell%20me%20the%20price%20and%20details%20for%20${encodeURIComponent(b.name)}%20puppy%20${i+1}.">Ask about this puppy →</a></div>
       </article>`).join("")).join("");
     }
     function selectBreed(name){activeBreed=name;renderBreeds();renderPuppies();document.getElementById("puppies").scrollIntoView({behavior:"smooth"});}
